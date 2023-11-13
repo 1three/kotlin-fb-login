@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "668399381437",
+    "project_id": "fb-login-be145",
+    "storage_bucket": "fb-login-be145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668399381437:android:0bf19550f7862ef7b340d4",
+        "android_client_info": {
+          "package_name": "com.three.fb_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8NIm6P8wOGQDfhFQgrjTln8ZjxYoAtoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
