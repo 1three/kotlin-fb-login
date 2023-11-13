@@ -1,5 +1,6 @@
 package com.three.fb_login
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -33,6 +34,12 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(baseContext, "로그인 권한이 없습니다.", Toast.LENGTH_SHORT).show()
                 }
             }
+        }
+
+        // 화면 전환
+        findViewById<Button>(R.id.startWithEmail).setOnClickListener {
+            val intent = Intent(this, JoinActivity::class.java)
+            startActivity(intent)
         }
     }
 }

@@ -10,26 +10,26 @@
 
     <Button
         android:id="@+id/startAnonymous"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:layout_margin="10dp"
         android:background="@drawable/btn_black_radius"
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
         android:text="로그인 없이 시작"
         android:textColor="@color/white"
-        android:textSize="15sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/startWithEmail"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:background="@drawable/btn_black_radius"
         android:paddingHorizontal="20dp"
         android:paddingVertical="10dp"
         android:text="이메일로 로그인"
         android:textColor="@color/white"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:layout_margin="10dp"/>
 
 </LinearLayout>
